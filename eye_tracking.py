@@ -72,7 +72,7 @@ images_er = images_er.permute(0,3,1,2).to(device)
 # left eye
 data_le = np.load('data/calibration/numpy/' + str(name) + '_lefteye' + str(augmentation_name) + '.npy', allow_pickle= True)
 data_le = np.array([data for i, data in enumerate(data_le) if closed_eyes_calibration[i] != 0])
-images_le = torch.Tensor(data_le)3
+images_le = torch.Tensor(data_le)
 images_le = images_le.permute(0,3,1,2).to(device)
 # right eye
 data_re = np.load('data/calibration/numpy/' + str(name) + '_righteye' + str(augmentation_name) + '.npy', allow_pickle= True)
