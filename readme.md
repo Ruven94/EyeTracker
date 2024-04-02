@@ -1,6 +1,6 @@
 # How to prepare the eye tracking:
-### (1) Create calibration / recalibration and evaluation videos with the help of "create_calibration_videos.py"
-### (2) Concatenate calibration videos with lecture videos with "create_lecture_eyetracking.py"
+### (1) Create calibration / recalibration and evaluation videos with the help of "preperations/create_calibration_videos.py"
+### (2) Concatenate calibration videos with lecture videos with "preperations/create_lecture_eyetracking.py"
 ### (3) Place the recording in the following folder path: data/records
 
 # How to use the eye tracker:
