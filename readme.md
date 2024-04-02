@@ -1,3 +1,6 @@
+# General note:
+### Adjustments should be made only to the "Parameter" section in each file, if available 
+
 # How to prepare the eye tracking:
 ### (1) Create calibration / recalibration and evaluation videos with the help of "preperations/create_calibration_videos.py"
 ### (2) Concatenate calibration videos with lecture videos with "preperations/create_lecture_eyetracking.py"
